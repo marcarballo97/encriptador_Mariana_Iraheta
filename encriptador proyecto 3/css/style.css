@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-image: url(https://cdn11.bigcommerce.com/s-l2xlls5oyw/images/stencil/original/products/30782/45425/c8c45100-baeb-4be2-a9f5-d20e008ea219__66174.1661175104.jpg);
+    font-family: "Lora";
+}
+  
+.main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sup{
+    padding: 10px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color:  rgb(20, 20, 20);
+    width: 100%;
+    height: 10%;
+}
+
+.titulo {
+    padding: 25px;
+    width: 45vw;
+    margin: auto;
+    color: #5D736F;
+    margin-top: 50px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    height: 200px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+h4{
+    padding: 25px;
+    width: 45vw;
+    margin: auto;
+    color: #5D736F;
+    text-align: center;
+}
+.lab {
+    color: 	#132c40;
+    text-align: center;
+}
+  
+.box {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #adcbe3;
+    border-radius: 0.5;
+    width: 30vw;
+    height: 13vw;
+   
+}
+  
+.btn {
+    border: 0;
+    color: #e7fcfe;
+    font-weight: bold;
+    background-color: 	#a2bbce;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+}
+  
+.text-input {
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.3em;
+    width: 100%;
+    height: 100px;
+    background-color:#fcfcfa;
+    overflow:hidden;
+}
+ 
+
+footer {
+    text-align: center;  
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    position:fixed;
+    background-image: url(https://cdn.wallpapersafari.com/4/85/tBixED.jpg);
+   
+}
+  
+.pie{
+    font-family:"Lora";
+    font-size:15px;
+    color: #fcfcfa;
+    padding: 1em;
+}
+  
